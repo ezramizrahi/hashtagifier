@@ -1,7 +1,7 @@
 # Hashtagifier
-NPM module that takes text and turns it into a hashtag.
+NPM package. that takes text and turns it into a hashtag.
 
-This is really just an exercise in creating an NPM module.
+This is really just an exercise in creating an NPM package.
 
 # Set up
 ```bash
