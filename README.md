@@ -17,7 +17,7 @@ const hashtagifier = require('hashtagifier');
 hashtagifier('fizz buzz');
 // should return '#fizzbuzz'
 
-hashtagifier(12345678910);
+hashtagifier(0123456789);
 // should throw "Parameter is not a string!"
 ```
 
