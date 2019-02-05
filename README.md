@@ -1,5 +1,5 @@
 # Hashtagifier
-NPM package. that takes text and turns it into a hashtag.
+NPM package that takes text and turns it into a hashtag.
 
 This is really just an exercise in creating an NPM package.
 
@@ -14,8 +14,11 @@ Takes a string, strips it of non-alphanumeric characters and returns a hashtag.
 ```javascript
 const hashtagifier = require('hashtagifier');
 
-hashtagifier('blah blahblah');
-// should return '#blahblahblah'
+hashtagifier('fizz buzz');
+// should return '#fizzbuzz'
+
+hashtagifier(12345678910);
+// should throw "Parameter is not a string!"
 ```
 
 # Author
