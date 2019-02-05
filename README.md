@@ -9,7 +9,7 @@ npm i hashtagifier
 ```
 
 # Use
-Takes a string, strips it of spaces and returns a hashtag.
+Takes a string, strips it of non-alphanumeric characters and returns a hashtag.
 
 ```javascript
 const hashtagifier = require('hashtagifier');
