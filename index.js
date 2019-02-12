@@ -5,12 +5,12 @@ module.exports = function hashtagifier(string) {
     return (Object.prototype.toString.call(obj) === '[object String]');
   }
 
-  if (isString(string)) {
+  if (isString(arguments)) {
     // remove all non-alphanumeric characters
-    let cleanString = string.replace(/[^A-Za-z0-9]/g,'');
+    let cleanString = arguments.replace(/[^A-Za-z0-9]/g,'');
     return `#${cleanString}`;
-  } else {
-    throw "Parameter is not a string!";
+  } else if (!isString(arguments)) {
+    throw new TypeError('Sorry, hashtagifier expects only strings!');
   }
 
 };

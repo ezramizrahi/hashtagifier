@@ -18,7 +18,7 @@ hashtagifier('fizz buzz');
 // should return '#fizzbuzz'
 
 hashtagifier(0123456789);
-// should throw 'Parameter is not a string!'
+// should throw TypeError 'Sorry, hashtagifier expects only strings!'
 ```
 
 # Tests
