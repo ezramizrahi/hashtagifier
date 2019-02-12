@@ -4,7 +4,7 @@
   "description": "takes text and turns it into a hashtag",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "ezra mizrahi",
   "license": "ISC",
