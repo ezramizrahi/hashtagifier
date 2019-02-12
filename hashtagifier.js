@@ -6,10 +6,11 @@ module.exports = function() {
   }
 
   if (!isString(arguments)) {
+    // if argument is not a string
     throw new TypeError('hashtagifier() expects only strings.')
   } else if (isString(arguments)) {
     // remove all non-alphanumeric characters
-    let cleanString = string.replace(/[^A-Za-z0-9]/g,'');
+    let cleanString = arguments.replace(/[^A-Za-z0-9]/g,'');
     return `#${cleanString}`;
   }
 

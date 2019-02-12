@@ -3,6 +3,8 @@ const expect = require('chai').expect;
 
 describe('#hashtagifier()', function() {
 
+  const cleanString = '#fizzbuzz';
+
   context('with non-string arguments', function() {
     it('should throw error', function() {
       expect(function() {

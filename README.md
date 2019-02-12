@@ -21,6 +21,9 @@ hashtagifier(0123456789);
 // should throw 'Parameter is not a string!'
 ```
 
+# Tests
+* [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/)
+
 # Author
 **Ezra Mizrahi**
 
