@@ -22,7 +22,8 @@ hashtagifier(0123456789);
 ```
 
 # Tests
-* [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/)
+* [Mocha](https://mochajs.org/)
+* [Chai](https://www.chaijs.com/)
 
 # Author
 **Ezra Mizrahi**
