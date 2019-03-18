@@ -2,7 +2,7 @@
   "name": "hashtagifier",
   "version": "1.0.5",
   "description": "takes text and turns it into a hashtag",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "babel ./src -d ./lib",
     "test": "mocha"
