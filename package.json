@@ -4,11 +4,14 @@
   "description": "takes text and turns it into a hashtag",
   "main": "index.js",
   "scripts": {
+    "build": "babel ./src -d ./lib",
     "test": "mocha"
   },
   "author": "ezra mizrahi",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
   }
